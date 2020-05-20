@@ -1,0 +1,8 @@
+本地链接 IPv6 地址:	fe80::6875:4f89:78a0:b7c4%3
+IPv4 地址:	192.168.3.110
+IPv4 DNS 服务器:	61.132.163.68
+202.102.213.68
+制造商:	Intel Corporation
+描述:	Intel(R) Ethernet Connection (7) I219-V
+驱动程序版本:	12.17.10.8
+物理地址(MAC):	00-D8-61-DE-AE-31
