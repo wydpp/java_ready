@@ -1,8 +1,7 @@
-本地链接 IPv6 地址:	fe80::6875:4f89:78a0:b7c4%3
-IPv4 地址:	192.168.3.110
-IPv4 DNS 服务器:	61.132.163.68
-202.102.213.68
-制造商:	Intel Corporation
-描述:	Intel(R) Ethernet Connection (7) I219-V
-驱动程序版本:	12.17.10.8
-物理地址(MAC):	00-D8-61-DE-AE-31
+为了方便说明，这里将缓冲数组大小看作bufferSize,
+将可从读取文件中获取到的所有字节大小看作：availableSize，
+availableSize可以通过inputStream.available()方法获取.
+如果availableSize不是bufferSize的整数倍，
+以outputStream.write(buffer)方式直接往outputstream中写时，
+最后一次循环时，缓冲数组中存有脏数据，导致outputStream中有多余的数据.
+是真的吗？
